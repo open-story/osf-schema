@@ -1,0 +1,19 @@
+apiVersion: dialogue/v1
+
+node node_1:
+  character: none
+  text: 
+        The sun was setting over the horizon, casting a 
+        warm glow over the battlefield. The air was thick 
+        with the smell of smoke and blood, a testament to
+        the fierce battle that had just taken place. In the
+        distance, the sound of clashing swords and the 
+        cries of warriors echoed through the valley."
+
+
+node node_2:
+  character: OliverVertran
+  text: 
+        I can't believe we actually did it. We defeated 
+        the enemy forces and secured our territory. But at 
+        what cost? So many lives lost, so much destruction.
