@@ -11,9 +11,9 @@ node node_1:
         cries of warriors echoed through the valley."
 
 
+# This will use name of the character as a name
 node node_2:
   character: OliverVertran
+  name: OliverVertran.name
   text: 
-        I can't believe we actually did it. We defeated 
-        the enemy forces and secured our territory. But at 
-        what cost? So many lives lost, so much destruction.
+        I can't believe $DarinaLautner.fullNameWithTitle actually did it. 
