@@ -1,0 +1,15 @@
+// Lisp style
+
+(document v1 Aristocracy
+  (displayName "Aristocracy")
+  (description
+    "The $Patriarch.displayName (or $Matriarch.displayName in some families) is the key figure..."
+    ($img "aristocracy-cover" :position "block")
+    "As a rule, aristocrats..."
+  )
+)
+
+(document v1 Patriarch
+  (displayName "Patriarch")
+  (description "The Patriarch is the key figure...")
+)

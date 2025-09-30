@@ -1,0 +1,15 @@
+// Custom
+
+document "Aristocracy" v1
+  display "Aristocracy"
+  text """
+  The $Patriarch.displayName (or $Matriarch.displayName in some families) is the key figure...
+  
+  $img: aristocracy-cover, position: block
+
+  As a rule, aristocrats...
+  """
+
+document "Patriarch" v1
+  display "Patriarch"
+  text "The Patriarch is the key figure..."

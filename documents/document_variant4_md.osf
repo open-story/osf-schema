@@ -1,0 +1,23 @@
+// MD Style
+
+---
+type: document
+id: Aristocracy
+version: v1
+displayName: Aristocracy
+---
+
+The $Patriarch.displayName (or $Matriarch.displayName in some families) is the key figure of the aristocratic house: the elder who manages the family's affairs.
+
+$img: aristocracy-cover, position: block
+
+As a rule, aristocrats are also quite high in social standing. Even impoverished families are typically wealthier than commoners, and if they don't own land, they at least own a house.
+
+
+---
+type: document
+id: Patriarch
+version: v1
+displayName: Patriarch
+---
+The Patriarch is the key figure of the aristocratic house: the elder who manages the family's affairs.
