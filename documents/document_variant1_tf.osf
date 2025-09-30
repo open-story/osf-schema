@@ -1,8 +1,8 @@
 // Terraform style variant
 
-document/v1 "Aristocracy" = {
-  displayName: "Aristocracy"
-  description: {
+document/v1 "Aristocracy" {
+  displayName ="Aristocracy"
+  description = {
     The $Patriarch.displayName (or $Matriarch.displayName in some families) is the key figure of the aristocratic house: the elder who manages the family's affairs.
     
     $img: aristocracy-cover, position: block
@@ -11,16 +11,19 @@ document/v1 "Aristocracy" = {
   } 
 }
 
-document/v1 "Patriarch" = {
-  displayName: "Patriarch"
-  description: {
+document/v1 "Patriarch" {
+  displayName = "Patriarch"
+  description = {
     The Patriarch is the key figure of the aristocratic house: the elder who manages the family's affairs.
+    // TODO We need to add something here.
+    # This is also an invisible comment.
+    Key is in the lock.  
   } 
 }
 
-document/v1 "Matriarch" = {
-  displayName: "Matriarch"
-  description: {
+document/v1 "Matriarch" {
+  displayName = "Matriarch"
+  description = {
     The Matriarch is the key figure of the aristocratic house: the elder who manages the family's affairs.
   } 
 }

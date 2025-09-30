@@ -8,7 +8,12 @@ The $Patriarch.displayName (or $Matriarch.displayName in some families) is the k
 
 $img: aristocracy-cover, position: block
 
-As a rule, aristocrats are also quite high in social standing. Even impoverished families are typically wealthier than commoners, and if they don't own land, they at least own a house. The table below presents all the aristocratic houses mentioned in the game.
+As a rule, aristocrats are also quite high in social standing. Even impoverished families are typically wealthier than commoners, and if they don't own land, they at least own a house. 
+
+// TODO We need to add something here.
+# This is also an invisible comment. 
+
+The table below presents all the aristocratic houses mentioned in the game.
 """
 
 [document.Patriarch]
