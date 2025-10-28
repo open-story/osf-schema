@@ -4,19 +4,38 @@ apiVersion: node/v1
 node part_1_node_1:
   character: Stranger
   text: Hello, Oliver.
+  next: part_1_node_2
 
 node part_1_node_2:
   character: Oliver
   text: Hi. What is your name?
+  next: part_1_node_3_1
 
-# Example with character name as dynamic
-node part_1_node_3:
-  character: document.Mark
+# Example with character name as dynamic output from document
+# In the start of the dialogue the name will be 'Stranger'
+node part_1_node_3_1:
+  character: document.Mark.shortName
   text: I am called Mark.
+  set: 
+    - what: variable.MarksNameIsKnown
+      toValue: true
+      when: end
+  next: 
+    - what: part_1_node_3_2
+      how: addition
 
-node part_1_node_4:
-  character: Mark
+# Because previous node uses 'addition' this node's text will merge into it.
+node part_1_node_3_2:
+  character: document.Mark.shortName
   text: I've created a new test dialogue: I want to see how it works. Shall we proceed?
 
+
+# Node's text block & character is optional
 node node_5:
+  character: Oliver
+  options:
+    - text: Yes, let's proceed.
+      next: node_6
+    - text: No, I have to go.
+      next: node_7
 
