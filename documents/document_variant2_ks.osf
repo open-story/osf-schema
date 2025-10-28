@@ -1,0 +1,21 @@
+// Kubernetes Style
+
+apiVersion: document/v1
+
+Aristocracy:
+  displayName: Aristocracy
+  description: 
+    The $Patriarch.displayName (or $Matriarch.displayName in some families) is the key figure of the aristocratic house: the elder who manages the family's affairs.
+
+    $img: aristocracy-cover, position: block
+
+    As a rule, aristocrats are also quite high in social standing. Even impoverished families are typically wealthier than commoners, and if they don't own land, they at least own a house. The table below presents all the aristocratic houses mentioned in the game.
+    
+
+Patriarch:
+  displayName: Patriarch
+  description: 
+    The Patriarch is the key figure of the aristocratic house: the elder who manages the family's affairs.
+    // TODO We need to add something here.
+    # This is also an invisible comment.
+    Key is in the lock.  
