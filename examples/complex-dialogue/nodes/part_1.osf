@@ -1,0 +1,22 @@
+apiVersion: node/v1
+
+# Example with character name as static
+node part_1_node_1:
+  character: Stranger
+  text: Hello, Oliver.
+
+node part_1_node_2:
+  character: Oliver
+  text: Hi. What is your name?
+
+# Example with character name as dynamic
+node part_1_node_3:
+  character: document.Mark
+  text: I am called Mark.
+
+node part_1_node_4:
+  character: Mark
+  text: I've created a new test dialogue: I want to see how it works. Shall we proceed?
+
+node node_5:
+

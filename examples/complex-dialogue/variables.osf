@@ -1,0 +1,5 @@
+apiVersion: variable/v1
+
+variable MarksNameIsKnown:
+  type: boolean
+  default: false

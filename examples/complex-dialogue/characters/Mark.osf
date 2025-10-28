@@ -1,0 +1,24 @@
+apiVersion: document/v1
+apiVersion: input/v1
+apiVersion: output/v1
+
+
+document Mark: {
+  name: "Mark Rhainer"
+  description: {
+      Mark Rhainer is a mysterious wanderer with a shadowy past. 
+      He is known for his sharp wit and resourcefulness, often 
+      finding himself in the midst of dangerous situations. 
+      Despite his rough exterior, Mark has a strong sense of 
+      justice and is willing to help those in need.
+  }
+  output: {
+    name: {
+        type: string
+        value: if $variable.MarksNameIsKnown ? $document.Mark.name : "Stranger"
+    }
+    shortName: {
+        type: string
+        value: if $variable.MarksNameIsKnown ? "Mark" : "Stranger"
+    }
+}
